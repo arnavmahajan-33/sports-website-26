@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Wimbledon Results</title>
+    <link rel="stylesheet" href="./stylesheets/wimbledonresults.css">
+</head>
+
+<body>
+    <header class="header">
+        <div id="navbar">
+            <div class="container">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="timeline.html">Timeline</a></li>
+                    <li><a href="wimbledonresults.html">Wimbledon Results</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <h1>
+        Want to know the ranks for a given year?<br>
+        Please select a year</h1>
+
+
+    <form id="datavalue">
+        <p>
+            <select id="year">
+                <option value="year" disabled selected>Year</option>
+                <option>2008</option>
+                <option>2009</option>
+                <option>2010</option>
+                <option>2011</option>
+                <option>2012</option>
+                <option>2013</option>
+                <option>2014</option>
+                <option>2015</option>
+                <option>2016</option>
+                <option>2017</option>
+                <option>2018</option>
+                <option>2019</option>
+                <option>2021</option>
+            </select>
+        </p>
+        <p>
+            <input type="submit">
+        </p>
+        <h3 style="color: white"><span id="result1"></span></h3>
+        <h3 style="color: white"><span id="result2"></span></h3>
+        
+    </form>
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase.js"></script>
+    <script src="../scripts/resultsscripts.js"></script>
+
+</body>
+
+</html>

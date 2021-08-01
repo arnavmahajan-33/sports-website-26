@@ -1,0 +1,49 @@
+#navbar ul {
+  
+	display: flex;
+	align-content: center;
+   justify-content: center;
+  }
+  #navbar ul li {
+	padding: 20px;
+	list-style: none;
+  }
+  #navbar ul li a {
+	text-transform: uppercase;
+	font-weight: bold;
+	color: white;
+	font-size: 2em;
+	text-decoration: none;
+	padding: 1em;
+	white-space: nowrap;
+	letter-spacing: 1px;
+	
+  }
+  #navbar ul li a:hover {
+	border-bottom: 3px solid white;
+}
+ body{
+	
+	background: url("../images/results.jpg") no-repeat center;
+	background-size: cover;
+	position: relative;
+	text-align:center;
+	color: white;
+
+}
+
+span {
+	display: inline-block;
+	margin:-50px;	
+  }
+
+h2{
+	text-align: center;
+	color: white;
+	margin-top: 20px;
+}
+
+select{
+	height: 45px;
+	width: 200px;
+}
